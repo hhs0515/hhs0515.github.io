@@ -99,7 +99,7 @@ code {
 	padding: 15px;
 	z-index: 1;
 	background-color: #222;
-	background-image: url("sidebar.jpg");
+	background-image: url("../img/sidebar.jpg");
 	color: #fff;
 }
 
