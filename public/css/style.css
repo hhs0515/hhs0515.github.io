@@ -29,8 +29,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", "Nanum Gothic";
-  --font-family-serif: "Nanum Gothic";
+  --font-family-sans-serif: "Roboto", "Noto Sans";
+  --font-family-serif: "Noto Sans";
 }
 
 * {
@@ -49,7 +49,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Nanum Gothic', serif;
+	font-family: 'Gelasio', 'Noto Sans', serif;
 	color: #2c3e50;
 }
 
@@ -223,7 +223,7 @@ blockquote {
 }
 
 p {
-	font-family: "Nanum Gothic";
+	font-family: "Noto Sans";
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -234,7 +234,7 @@ article h3,
 article h4,
 article h5,
 article h6 {
-	font-family: "Roboto", "Nanum Gothic";
+	font-family: "Roboto", "Noto Sans";
 	color: #333;
   	margin-bottom: 0;
 }
