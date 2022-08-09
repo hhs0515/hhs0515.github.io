@@ -92,7 +92,9 @@ code {
 }
 
 .sidebar {
-	/*position: fixed;*/
+	position: sticky;
+	top: 0px;
+	height: 110%;
 	display: flex;
 	flex-flow: column nowrap;
 	flex: 0 0 300px;
@@ -101,7 +103,7 @@ code {
 	background-color: #222;
 	background-image: url("../img/sidebar.jpg");
 	background-size: cover;
-	color: #fff;
+	color: blanchedalmond;
 }
 
 .sidebar-item {
@@ -144,7 +146,7 @@ a.nav-item {
 	font-size: 120%;
 	font-family: "Noto Sans", "Noto Sans KR";
 	text-transform: capitalize;
-	color: #aaa;
+	color: ghostwhite;
 }
 
 a.nav-item:hover { color: #777; }
