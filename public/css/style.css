@@ -240,6 +240,7 @@ article h6 {
 
 article h2 {
 	font-family: "Roboto", "Noto Sans", "Noto Sans KR";
+	font-size: 1.2em;
 	color: darkslateblue;
   	margin-bottom: 15px;
 	border-style: groove;
