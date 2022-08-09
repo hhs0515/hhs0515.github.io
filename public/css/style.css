@@ -29,7 +29,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", "Noto Sans";
+  --font-family-sans-serif: "Roboto", "Noto Sans", "Noto Sans KR";
   --font-family-serif: "Noto Sans";
 }
 
@@ -49,7 +49,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Noto Sans', serif;
+	font-family: 'Gelasio', 'Noto Sans', "Noto Sans KR", serif;
 	color: #2c3e50;
 }
 
@@ -133,7 +133,7 @@ code {
 
 .nav-title {
 	font-size: 100%;
-	font-family: "Noto Sans";
+	font-family: "Noto Sans", "Noto Sans KR";
 	text-transform: uppercase;
 	border-bottom: 1px solid gray;
 	margin-bottom: 5px;
@@ -141,7 +141,7 @@ code {
 
 a.nav-item {
 	font-size: 120%;
-	font-family: "Noto Sans";
+	font-family: "Noto Sans", "Noto Sans KR";
 	text-transform: capitalize;
 	color: #aaa;
 }
@@ -223,21 +223,29 @@ blockquote {
 }
 
 p {
-	font-family: "Noto Sans";
+	font-family: "Noto Sans", "Noto Sans KR";
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
 article h1,
-article h2,
 article h3,
 article h4,
 article h5,
 article h6 {
-	font-family: "Roboto", "Noto Sans";
-	color: #333;
-  	margin-bottom: 0;
+	font-family: "Roboto", "Noto Sans", "Noto Sans KR";
+	color: darkslateblue;
+  	margin-bottom: 15px;
 }
+
+article h2 {
+	font-family: "Roboto", "Noto Sans", "Noto Sans KR";
+	color: darkslateblue;
+  	margin-bottom: 15px;
+	border-style: groove;
+	text-align: center;
+}
+
 
 article.home h1 a,
 article.home h2 a,
@@ -257,6 +265,7 @@ header.post-header {
 	margin-bottom: 30px;
 	border-bottom: 1px solid #ccc;
 	text-align: center;
+	font-family: "Noto Sans KR", "Noto Sans";
 }
 
 header.home {
