@@ -211,6 +211,7 @@ article {
 	font-size: 17px;
 	margin-bottom: 100px;
 	line-height: 1.9;
+	padding-bottom: 100px;
 }
 
 article.home div a, article.home pre a { color: #2c3e50; }
