@@ -7,6 +7,11 @@
 	{%- if jekyll.environment == 'production' and site.google_analytics -%}
 		{%- include google-analytics.html -%}
 	{%- endif -%}
+
+	{% if page.use_math %}
+  		{% include mathjax_support.html %}
+	{% endif %}
+
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4024619380103218"
      crossorigin="anonymous"></script>
 </head>
