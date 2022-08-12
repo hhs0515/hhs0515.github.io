@@ -94,7 +94,7 @@ code {
 .sidebar {
 	position: sticky;
 	top: 0px;
-	height: 110%;
+	height: 800px;
 	display: flex;
 	flex-flow: column nowrap;
 	flex: 0 0 300px;
