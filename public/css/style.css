@@ -59,10 +59,6 @@ a {
 	background-color: transparent;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 pre {
 	display: block;
 	overflow: auto;
@@ -149,14 +145,14 @@ a.nav-item {
 	color: ghostwhite;
 }
 
-a.nav-item:hover { color: #777; }
+a.nav-item:hover {
+	color: #777;
+	text-decoration: none;
+}
 
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
 .badge::after { content: ")"; }
-
-.post-list > li {
-}
 
 .post-link {
 	margin-left: 10px;
